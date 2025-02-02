@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NastrKompForm</class>
+ <widget class="QDialog" name="NastrKompForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>271</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>361</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(22, 14, 53);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>80</y>
+     <width>352</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+	background-color: rgb(119, 59, 205);
+	color: rgb(93, 253, 203);
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}
+QPushButton {
+	color: rgb(93, 253, 203);
+	background-color: transparent;
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Настройки</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+	background-color: rgb(119, 59, 205);
+	color: rgb(93, 253, 203);
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}
+QPushButton {
+	color: rgb(93, 253, 203);
+	background-color: transparent;
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Справка</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+	background-color: rgb(119, 59, 205);
+	color: rgb(93, 253, 203);
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}
+QPushButton {
+	color: rgb(93, 253, 203);
+	background-color: transparent;
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Выход</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_27">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>10</y>
+     <width>350</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>350</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Trebuchet MS</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+	background-color: rgb(175, 0, 2);
+	color: rgb(206, 161, 70);
+	border: 1px solid rgb(119, 59, 205);	
+	border-radius: 10px;
+}
+QPushButton {
+	background-color: rgb(107, 0, 1);
+	color: rgb(255, 200, 87);
+	border-radius: 10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Сдаться</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
